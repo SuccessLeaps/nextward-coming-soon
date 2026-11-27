@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NextWard — Coming Soon</title>
+  <meta name="description" content="NextWard: lifelike AI guides for personal, spiritual and business growth. Coming soon — join the waitlist.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --teal: #0f766e;
+      --teal-light: #14b8a6;
+      --teal-soft: #e6f4f2;
+      --ink: #12201f;
+      --muted: #5b6b69;
+      --bg: #fbfaf7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-image:
+        radial-gradient(circle at 15% 20%, rgba(20,184,166,0.12), transparent 45%),
+        radial-gradient(circle at 85% 80%, rgba(15,118,110,0.10), transparent 45%);
+    }
+    header { padding: 28px 32px; }
+    .wordmark {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 1.6rem;
+      color: var(--teal);
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+    /* To use your real logo instead, replace the wordmark <a> with:
+       <img src="/logo.png" alt="NextWard" style="height:36px"> */
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .card { max-width: 640px; text-align: center; }
+    .eyebrow {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--teal);
+      background: var(--teal-soft);
+      padding: 7px 14px;
+      border-radius: 999px;
+      margin-bottom: 26px;
+    }
+    h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 500;
+      font-size: clamp(2.3rem, 6vw, 3.6rem);
+      line-height: 1.08;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
+    }
+    h1 em { font-style: italic; color: var(--teal); }
+    .lede {
+      font-size: 1.12rem;
+      line-height: 1.65;
+      color: var(--muted);
+      margin-bottom: 30px;
+    }
+    .paths {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 36px;
+    }
+    .paths span {
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 8px 16px;
+      border: 1px solid rgba(15,118,110,0.25);
+      border-radius: 999px;
+      background: #fff;
+    }
+
+    /* Waitlist area */
+    .waitlist {
+      background: #fff;
+      border: 1px solid rgba(15,118,110,0.15);
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 10px 40px rgba(15,118,110,0.08);
+    }
+    .waitlist h2 { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; }
+    .waitlist p { font-size: 0.95rem; color: var(--muted); margin-bottom: 18px; }
+    .btn {
+      display: inline-block;
+      background: var(--teal);
+      color: #fff;
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 14px 28px;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn:hover { background: var(--teal-light); }
+    .small { font-size: 0.82rem; color: var(--muted); margin-top: 14px; }
+
+    footer {
+      text-align: center;
+      padding: 26px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--teal); text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="wordmark" href="/">nextward</a>
+  </header>
+
+  <main>
+    <div class="card">
+      <span class="eyebrow">Coming soon</span>
+      <h1>Your next move is <em>almost here.</em></h1>
+      <p class="lede">
+        Short lessons from lifelike AI guides for your personal life, your spirit and your business,
+        plus Entuva, an AI thinking partner you can talk to any time. We're putting the finishing touches on it now.
+      </p>
+
+      <div class="paths">
+        <span>Personal Growth</span>
+        <span>Spiritual Growth</span>
+        <span>Business Growth</span>
+      </div>
+
+      <div class="waitlist">
+        <h2>Be first in the door</h2>
+        <p>Join the waitlist for early access and a founding-member offer.</p>
+
+        <!-- ============================================================
+             WAITLIST FORM
+             Option A (best): paste your Systeme.io inline form embed code
+             here, and delete the button below.
+             Option B: keep the button and replace the # in href="#"
+             with the link to your Systeme.io waitlist page.
+             ============================================================ -->
+
+        <a class="btn" href="#">Join the waitlist</a>
+
+        <p class="small">No spam. Just one email when we open the doors.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 NextWard · Learn. Grow. Move forward. ·
+    <a href="mailto:support@getnextward.com">support@getnextward.com</a>
+  </footer>
+</body>
+</html>
